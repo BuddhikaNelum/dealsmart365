@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { APP_BASE_HREF } from '@angular/common';
+import { AdsComponent } from './ads/ads.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AdsComponent,
+    SidenavComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
